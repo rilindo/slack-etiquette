@@ -1,6 +1,6 @@
-# Public Slack Etiquette (or IRC Etiquette Reconsidered)
+# Community Slack Etiquette (or IRC Etiquette Reconsidered)
 
-In the last 5 years, Slack has become an alternative real-time chat to IRC, as it became the preferred medium for communities dedicated to software languages, operating systems, web services, and every other technology out there. With it, comes social conflict that comes up whenever people of various backgrounds communicate in a new medium. While there are blogs that outline specific recommendations on how to behave on slack, public slacks are unique in that there are social dynamics that differs from internal, private slacks. This article will help you how to ask questions on those slacks and get the most out of them.
+In the last 5 years, Slack has become an alternative real-time chat to IRC, as it became the preferred medium for communities dedicated to software languages, operating systems, web services, and every other technology out there. That said, community slacks does share similar social dynamics with IRC (as opposed to social dynamics with private, company slacks). This guide will help you get most of slacks when you join to ask questions and get assistance.
 
 NOTE: While this is inspired by IRC Etiquette, there are elements of it that were fairly problematic, which we are addressing to ensure that this guide is more inclusive.
 
