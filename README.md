@@ -1,92 +1,118 @@
-# IRC Etiquette By [Christoph Haas](http://workaround.org/getting-help-on-irc)
+# Public Slack Etiquette (or IRC Etiquette Reconsidered)
 
-IRC (Internet Relay Chat) is a real-time chat where you can talk to other people from around the planet. Although many channels deal with smalltalk about the weather, girl-friends and politics there are IRC networks and channels that are dedicated to provide support for a piece of software or an operating system. irc.freenode.net for example exists to support open-source projects. In case you need urgent help or just don't want to use a mailing list then you are welcome on IRC. IRC has been there for ages and has evolved with the time. So it may appear a hot tub of completely mad people at first. This article is meant to help you understand how to IRC works socially and how to get the most out of it.
+In the last 5 years, Slack has become an alternative real-time chat to IRC, as it became the preferred medium for communities dedicated to software languages, operating systems, web services, and every other technology out there. With it, comes social conflict that comes up whenever people of various backgrounds communicate in a new medium. While there are blogs that outline specific recommendations on how to behave on slack, public slacks are unique in that there are social dynamics that differs from internal, private slacks. This article will help how to ask questions on slack and get the most out of it.
 
-## Don't ask to ask
+NOTE: While this is inspired by IRC Etiquette, there are elements of it that are fairly problematic, which we will address to ensure that this guide is more inclusive.
 
-It's a bad manner if someone enters a channel and asks "May I ask a question?" or "Can anyone help me?". Although that may be polite in normal human interaction it does not work that way on IRC. You are supposed to just ask your question right away.
+## Be Kind, Courteous, and Respectful
 
-## Be precise
+People on slack channels are taking their time to help and even administer the slack channels. In many changes, they have just a few minutes out of their work day or family time to check in. Please take that into consideration when you ask.
 
-There is nothing worse than "My printer doesn't work." or "My mail server doesn't work.". How are others supposed to help you when you don't give them any information? Make sure you include at least this information:
+## Review Community Guidelines or Code of Conduct
 
-- What did you try to accomplish? (I wanted to fetch my mails via POP3.)
-- What has happened (wrongly) instead? (But my inbox remains empty.)
-- What environment are you using? (I am using kmail 1.8 in KDE 3.4.)
-- What did you try to find the cause? (I already checked my POP3 account setup.)
-- Are there error message or log files? (The error message reads: "SSL negotiation failed.")
-- Has it ever worked? What did you change? (I switched accounts to a new provider. It worked before with another provider.)
+In some communities, there may be a code of conduct or community guidelines posts as pinned links. Please review them, as they will drive how you should ask your question. For example, if the community guidelines ask you to communicate in a gender neutral fashion, you should do so accordingly. 
+
+## Go ahead and ask your question
+
+While it is understandable that you want to be polite, in almost every case, you can simply ask your question and if people are online, they will answer. That will get more results, than just saying "May I ask a question?" or "Can anyone help me?". 
+
+## Be precise and reasonably descriptive
+
+In your question, you should provide enough information for people to response. Make sure you include at least this information:
+
+- What did you try to accomplish? (I wanted to run Apache in Docker)
+- What has happened (wrongly) instead? (I can't view my web site)
+- What environment are you using? (I am using Docker on Ubuntu)
+- What did you try to find the cause? (I checked that container is running)
+- Are there error message or log files? (I am getting reads: "Connection Refused" from the command line)
+- Has it ever worked? What did you change? (This is my first time running apache under Docker and I just created the Dockerfile)
 
 If all this information is included then you will have a high chance of getting a useful reply.
 
 ## Tell what you are doing
 
-Others only know what you tell them. If you change things silently then nobody will know about it. The worst thing you can do is say: "I changed something. Now I have another problem." This will get you ignored in no time. If you expect help you need to work with the supporters.
+People will only stay with you if you tell them what is going on. Remember, their time is just as valuable as yours, so if you need them to continue to give you help, if you:
 
-## Read the /topic
+* Make any changes and
+* It caused a different problem now
 
-Your IRC client will likely show you the "topic" of a channel when you enter it. You should find some useful information about how this channel is supposed to work. Often the topic even lists URLs for FAQs and documentation. Asking something that is clearly answered in the topic is very stupid. If there are FAQ URLs listed in the topic first look there if you find your question answered.
+Make sure to communicate that.
 
-## Do not be demanding
+## Post to the Appropriate channel
 
-Do not expect a single person to stay online until your problem is fixed. IRC is a stateless medium. Anyone can quit at any time. People stay there because they like staying there. Nobody is paid for helping you.
+In most slacks, there are channels dedicated to a specific topic. Join channels that are most relevant to your question (For example, if you have an AWS question, go the #aws or #cloud channel). Then, if there is a topic, review that - you should find some useful information about how this channel is supposed to work and may even lists URLs for FAQs and documentation that could answer your question.
 
-## Do not /msg people without asking
+NOTE: While it is tempting to post your question in #general, it should be used very sparingly and ideally, should be used only to ask which channel to post your question. Here is an example:
 
-You can either talk to others in a channel publicly or /msg them privately. However the latter is considered rude. Don't occupy a single person for your purpose. Others may as well be interested in a solution to your problem, too.
+`I am experiencing a problem running puppet code on a new CentOS 7 - I am trying to install mySQL, but the puppet client is returning "Could not request certificate: getaddrinfo: Name or service not known. Is this the right channel or is there someplace different I should go to?`
 
-## Unintended rudeness
 
-Sometimes you may feel that others are rude. You may get a response like "Reinstall the package. Restart the service. Read the /usr/share/doc/mysoftware/README." Although this is a very brief reply it is likely not meant to be rude. IRC is often like human interaction without all the friendly bits. Other people have probably answered your question a dozen of times today and they just want to help you solve the problem - not become close friends with you. Don't be offended by it. The people don't mean it.
+Understand that #general is the default channel that most people *cannot* get out. Depending on the amount of traffic, your question can get lost (or worse, deleted if there is already a relevant channel)
 
-## Do not repeat yourself
+## Be Patient
 
-Asking the same question every minute is annoying. If anyone in the channel isn't paying attention then they will neither read you the second and third time. And those who came back from lunch or sleep will likely see in their "lastlog" what has happened lately. This is too demanding.
+People on slack are sacrificing their time (doing so for free) to help you. They are free, though, to move on to more important things if they are challenged. You can demand if you like; you may not get the response you desired.
 
-## Speak english
+## Ask before you DM
 
-In most channels the only language spoken is english. There are certain local channels like #debian-fr which are specifically for frenchmen. But everywhere else you must not write anything but english. It doesn't matter if your english is bad. Most people in the world speak something different than english, too. And if you find another person that speaks your language then do not start to talk in your local language. Nobody else can follow you and it's considered rude.
+You can either talk to others in a channel publicly or direct message (DM) them privately. However, avoid DM people unless they clearly communicated that it is okay. That is because:
 
-## Don't be lazy - read the documentation
+* Asking questions publicly can bring more eyes to your question and perhaps provide a much better solution
+* The person you DM may not immediately be available.
+* DM from strangers or even mild acquaintances is considered rude by some people and will be ignored.
+* In some cases, depending on how you communicate, it could be a form of harassment.
 
-If people tell you to read the documentation then you should do so. Never say: "I'm too lazy. Come on. You all know what I need to do. Just tell me what I need to do." This will get you ignored for all eternity. However you can expect to be told where to find the documentation. But if you get an URL then get it and read it. If the documentation is too technical or you don't understand certain sections then say: "I have now read chapter 3.1 of the URL you gave me and I understand how virtual domains work in general. But how would I use both virtual and non-virtual domains together?"
+## Responding to Rudeness (Unintentional or Otherwise)
 
-## Give others a chance to answer
+Sometimes, you may get relatively terse to your question, such as 
 
-Even if you are in a hurry you should allow other participants some time to answer. Sometimes you are lucky and a helpful reply appears within a few seconds. But it is not uncommon that you will have to wait 10-20 minutes until the right person who is familiar with your problem talks to you. The pattern looks something like this:
 
-```
-10:07 Foo joins
-10:07 Foo> How can I install the shripdibble module?
-10:09 Foo quit
-```
+`Reinstall the package. Restart the service. Read the /usr/share/doc/mysoftware/README.` 
 
-Then at 10:14 an expert on shripdibble joins but can't help you any more because you gave up too quickly.
+While you can get offended by this and it could be communicated better, unless there is a clear attack on your ethnicity, gender, orientation, belief, or politics, it is not worth the time to respond adversarially. Jut make sure to address that statement in a clear, polite manner.
 
-## Stay if you can
+(Though if you have not done what you have been asked, you probably do that before you respond)
 
-Using IRC is a matter of give and take. At the beginning you will surely you'll have questions over questions. Just ask them and be grateful if you get attention and replies. Others do not expect more than a "Thank you." for their help.
 
-If you can, please consider staying online in the channel. The more knowledge you gain the more you can help other people. And you probably get to know people you like to hang out with - even if it's just virtually.
+## Ask for help with Documentation
 
-## Answer the questions that you get asked?
+If people tell you to read the documentation, it can be annoying, especially if you have read the documentation. In that case, you should communicate where you have having problems with the documentation. For example, if the documentation is too technical or you don't understand certain sections then say: "I have now read chapter 3.1 of the URL you gave me and I understand how virtual domains work in general. But how would I use both virtual and non-virtual domains together?"
 
-It may sometimes be hard to follow all the conversation on IRC. But if people are trying to help you and need to ask you a few questions please answer them all. If you get asked three questions and only answer one or keep asking the same question time and again (showing that you don't read what you get asked) you risk to be ignored. Show some initiative and your problem will likely be fixed within a few minutes.
+
+## Communication Clearly
+
+Unclear speech (mis-spelling, bad grammar, etc) is hard to understand and can be ignored. Strive to write in clear, concise manner, with. If English is not your first language and you have problems with it, you could ask somebody to translate or find a slack channel that is tailored to your language.
+
+
+## Answer the questions that you get asked
+
+It may sometimes be hard to follow all the conversation on slack. But if people are trying to help you and need to ask you a few questions please answer them all. If you get asked three questions and only answer one or keep asking the same question time and again (showing that you don't read what you get asked) you risk to be ignored. Show some initiative and your problem will likely be fixed within a few minutes.
 
 ## Tell others about the solution
 
-It doesn't help anyone if you just say "Nevermind, found it." and quit the channel. Please tell the others what the solution to your problem was so everybody can learn from it. You will not look stupid - trust me.
+If you found a solution, go ahead and share it. It may help other people
 
-## Careful who you trust
+## Careful which answers you pick
 
-When getting responses be careful who you trust. Some people just want to feel important and reply to you although they have no more clue than you do. Perhaps even an "educated guess" might help - just make clear if it's something that was tried and worked. Some people are even jokers who want to be funny by telling you how to erase your harddisk. So verify others' proposals instead of applying them blindly.
+When getting responses be careful who you trust. Some people just want to feel important by giving you any answer, whether it is right or wrong. In some cases, those answers may be malicious.
 
-## Do not flood the channel - use a pastebin
+(As an aside, if you are having an issue that is specific to your work environment, it may be best to reach out to worker first. Blindly following a solution given by a random person in public slack without verification can have catastrophic consequences)
 
-Sometimes you need to show others more than one line. Perhaps parts of your configuration files or a log file. Never just copy and paste larger amounts of text right into the channel. Always use a pastebin. Pastebins are public services (web sites) where you can paste your text and everybody can access them as a URL. Just paste your contents there and send the URL into the channel. That should allow everybody who's interested to take a look. Just don't paste it without any comment. Rather say: "Emails seem to get lost since I installed program foobar. Please take a look at my logs: http://..." See the [list of pastebin services](http://en.wikipedia.org/wiki/Pastebin) on the internet.
+## Sharing on Slack
+
+In general, you may need to post something on slack whether it is an error or the configuration file. In most cases, you should use text, as it lets people copy and paste for review and parsing. Here are some general recommendations.
+
+* For short text, use mark down to format
+* For longer text, use gists or pastebin
+
+Screenshots should be used sparingly.
+
+IMPORTANT: If it is something related to work, you may need to use a scaled down version of your output and strip out identifying information such as ip address, etc as providing that info may be in conflict with your company's confidential policies.internet.
 
 Related links
 -------------
 
+- https://github.com/fizerkhan/irc-etiquette (the original IRC etiquette)
 - http://www.catb.org/~esr/faqs/smart-questions.html
 - http://www.koepf.de/irc.html (german)
+- https://hiverhq.com/blog/slack-etiquette/ (additional slack etiquette that is specific to private slacks)
