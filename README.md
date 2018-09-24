@@ -1,14 +1,14 @@
 # Public Slack Etiquette (or IRC Etiquette Reconsidered)
 
-In the last 5 years, Slack has become an alternative real-time chat to IRC, as it became the preferred medium for communities dedicated to software languages, operating systems, web services, and every other technology out there. With it, comes social conflict that comes up whenever people of various backgrounds communicate in a new medium. While there are blogs that outline specific recommendations on how to behave on slack, public slacks are unique in that there are social dynamics that differs from internal, private slacks. This article will help how to ask questions on slack and get the most out of it.
+In the last 5 years, Slack has become an alternative real-time chat to IRC, as it became the preferred medium for communities dedicated to software languages, operating systems, web services, and every other technology out there. With it, comes social conflict that comes up whenever people of various backgrounds communicate in a new medium. While there are blogs that outline specific recommendations on how to behave on slack, public slacks are unique in that there are social dynamics that differs from internal, private slacks. This article will help you how to ask questions on those slacks and get the most out of them.
 
-NOTE: While this is inspired by IRC Etiquette, there are elements of it that are fairly problematic, which we will address to ensure that this guide is more inclusive.
+NOTE: While this is inspired by IRC Etiquette, there are elements of it that were fairly problematic, which we are addressing to ensure that this guide is more inclusive.
 
-## Be Kind, Courteous, and Respectful
+## Be kind, courteous, and respectful
 
 People on slack channels are taking their time to help and even administer the slack channels. In many changes, they have just a few minutes out of their work day or family time to check in. Please take that into consideration when you ask.
 
-## Review Community Guidelines or Code of Conduct
+## Review community guidelines or code of conduct
 
 In some communities, there may be a code of conduct or community guidelines posts as pinned links. Please review them, as they will drive how you should ask your question. For example, if the community guidelines ask you to communicate in a gender neutral fashion, you should do so accordingly. 
 
@@ -38,7 +38,7 @@ People will only stay with you if you tell them what is going on. Remember, thei
 
 Make sure to communicate that.
 
-## Post to the Appropriate channel
+## Post to the appropriate channel
 
 In most slacks, there are channels dedicated to a specific topic. Join channels that are most relevant to your question (For example, if you have an AWS question, go the #aws or #cloud channel). Then, if there is a topic, review that - you should find some useful information about how this channel is supposed to work and may even lists URLs for FAQs and documentation that could answer your question.
 
@@ -49,7 +49,7 @@ NOTE: While it is tempting to post your question in #general, it should be used 
 
 Understand that #general is the default channel that most people *cannot* get out. Depending on the amount of traffic, your question can get lost (or worse, deleted if there is already a relevant channel)
 
-## Be Patient
+## Be patient
 
 People on slack are sacrificing their time (doing so for free) to help you. They are free, though, to move on to more important things if they are challenged. You can demand if you like; you may not get the response you desired.
 
@@ -62,7 +62,7 @@ You can either talk to others in a channel publicly or direct message (DM) them 
 * DM from strangers or even mild acquaintances is considered rude by some people and will be ignored.
 * In some cases, depending on how you communicate, it could be a form of harassment.
 
-## Responding to Rudeness (Unintentional or Otherwise)
+## Responding to Rudeness
 
 Sometimes, you may get relatively terse to your question, such as 
 
@@ -74,12 +74,12 @@ While you can get offended by this and it could be communicated better, unless t
 (Though if you have not done what you have been asked, you probably do that before you respond)
 
 
-## Ask for help with Documentation
+## Ask for help with documentation
 
 If people tell you to read the documentation, it can be annoying, especially if you have read the documentation. In that case, you should communicate where you have having problems with the documentation. For example, if the documentation is too technical or you don't understand certain sections then say: "I have now read chapter 3.1 of the URL you gave me and I understand how virtual domains work in general. But how would I use both virtual and non-virtual domains together?"
 
 
-## Communication Clearly
+## Communicate Clearly
 
 Unclear speech (mis-spelling, bad grammar, etc) is hard to understand and can be ignored. Strive to write in clear, concise manner, with. If English is not your first language and you have problems with it, you could ask somebody to translate or find a slack channel that is tailored to your language.
 
